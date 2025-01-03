@@ -1,21 +1,23 @@
 set_curtain_position:
-  description: Sets cover position with ability to set speed. This does only work with SwitchBot devices that support QuietDrift.
+  description: Sets cover position with ability to set speed. This works with SwitchBot devices supporting QuietDrift.
   fields:
     entity_id:
-      description: the cover entity to adjust
+      description: The cover entity to adjust
       selector:
         entity:
           domain: cover
           multiple: true
     speed:
-      description: transition speed
+      description: Transition speed
       selector:
         number:
           min: 1
           max: 255
+          step: 1
     position:
-      description: desired position
+      description: Desired position
       selector:
         number:
           min: 0
           max: 100
+          step: 1
