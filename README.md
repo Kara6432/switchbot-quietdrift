@@ -29,6 +29,3 @@ data:
   position: 90
   entity_id: cover.<your_cover_entity>
 ```
-
-There is also an older action `cover.switchbot_quietdrift_set_curtain_position`.
-It does the very same job, but the old one cannot be easily configured via the GUI, only by using YAML.
