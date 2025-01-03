@@ -1,8 +1,8 @@
-set_switchbot_curtain_position:
-  description: Sets cover position with ability to set speed. This works only with SwitchBot devices with QuietDrift support.
+set_curtain_position:
+  description: Sets cover position with ability to set speed. This does only work with SwitchBot devices that support QuietDrift.
   fields:
     entity_id:
-      description: The cover to adjust
+      description: the cover entity to adjust
       selector:
         entity:
           domain: cover

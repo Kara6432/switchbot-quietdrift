@@ -1,0 +1,11 @@
+{
+  "domain": "switchbot_quietdrift",
+  "name": "SwitchBot QuietDrift",
+  "codeowners": ["@v6ak", "@Kara6432"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/Kara6432/switchbot-quietdrift",
+  "iot_class": "local_push",
+  "requirements": [],
+  "version": "1.1.0"
+}
